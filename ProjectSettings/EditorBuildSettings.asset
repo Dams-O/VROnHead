@@ -5,10 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/sceneMenu.unity
     guid: 8b0c6d9f3e0186a4393e548f6027dd53
   - enabled: 1
     path: Assets/Scenes/projetVR.unity
     guid: 5be80f2264ef9a04096704c6571173ab
-  m_configObjects: {}
+  - enabled: 0
+    path: Assets/Easy Input for Gear VR/Resources/Scenes/SpecificExamples/bowlingExample.unity
+    guid: b9665797b3beb9b408e26a82637e125e
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 62346cbc60814484ea23db0386150be1,
+      type: 2}
