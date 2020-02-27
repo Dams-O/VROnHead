@@ -19,8 +19,17 @@ public class Panier : MonoBehaviour
         if(other.tag == "PetitObj"){
             score++;
         }
+        if(other.tag == "crayon"){
+            score = score +2;
+        }
         if(other.tag == "cahier"){
             score = score +3;
+        }
+        if(other.tag == "Ordi"){
+            score = score +4;
+        }
+        if(other.tag == "Ballon"){
+            score = score +5;
         }
         scoreText.text = score.ToString();
     }
