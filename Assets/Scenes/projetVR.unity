@@ -1031,11 +1031,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbc36dd0b7c79e04ba99177a99a3213f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  repeatEventRate: 0.25
-  buttonMode: 0
-  scrollAmount: 0.01
-  scrollSpeedMultiplier: 3
-  UICamera: {fileID: 0}
 --- !u!114 &169890007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2452,30 +2447,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3dac4692e28eec43872b7fecaf79961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabCondtion: 11
-  dropCondition: 0
-  throwSensitivity: 1
-  blockMovementWhenGrabbing: 0
-  movementObject: {fileID: 0}
-  forceDepthToDistance: 0
-  forcedDistance: 1
-  allowClickForDepth: 0
-  clickDeadzone: 0.4
-  clickSensitivity: 1
-  minDepthDistance: 0.5
-  maxDepthDistance: 20
-  allowSwipeForRotation: 0
-  swipeXSensitivity: 1
-  swipeYSensitivity: 1
-  collisionsBreakGrab: 0
-  lockXPosition: 0
-  lockYPosition: 0
-  lockZPosition: 0
-  lockXRotation: 0
-  lockYRotation: 0
-  lockZRotation: 0
-  twistMode: 0
-  twistSensitivity: 1
 --- !u!114 &522510759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2488,26 +2459,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8028fe1c27b444c99bf0517f7bc852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 522510757}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!54 &522510760
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2663,21 +2614,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a7710be4e0a1749a746475c4b49dd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heightOffset: 1
-  laserMaterial: {fileID: 2100000, guid: 18a35160df0bdf941b245ebbc6689fdd, type: 2}
-  laserStartColor: {r: 0, g: 0.5368155, b: 0.9852941, a: 1}
-  laserEndColor: {r: 0, g: 0.5368155, b: 0.9852941, a: 1}
-  segmentsCount: 40
-  segmentLength: 1
-  segmentCurveDegrees: 3
-  reticle: {fileID: 1707732718}
-  reticleColor: {r: 0, g: 0.9037525, b: 0.9852941, a: 1}
-  colliderRaycast: 1
-  layersToCheck:
-    serializedVersion: 2
-    m_Bits: 4294967240
-  UIRaycast: 1
-  InputModule: {fileID: 169890005}
 --- !u!114 &565679399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3015,30 +2951,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3dac4692e28eec43872b7fecaf79961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabCondtion: 11
-  dropCondition: 0
-  throwSensitivity: 1
-  blockMovementWhenGrabbing: 0
-  movementObject: {fileID: 0}
-  forceDepthToDistance: 0
-  forcedDistance: 1
-  allowClickForDepth: 0
-  clickDeadzone: 0.4
-  clickSensitivity: 1
-  minDepthDistance: 0.5
-  maxDepthDistance: 20
-  allowSwipeForRotation: 0
-  swipeXSensitivity: 1
-  swipeYSensitivity: 1
-  collisionsBreakGrab: 0
-  lockXPosition: 0
-  lockYPosition: 0
-  lockZPosition: 0
-  lockXRotation: 0
-  lockYRotation: 0
-  lockZRotation: 0
-  twistMode: 0
-  twistSensitivity: 1
 --- !u!114 &608606120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3051,15 +2963,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8028fe1c27b444c99bf0517f7bc852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!65 &608606121
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3475,7 +3378,7 @@ GameObject:
   - component: {fileID: 656601164}
   m_Layer: 0
   m_Name: Bouteille
-  m_TagString: Untagged
+  m_TagString: PetitObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3508,30 +3411,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3dac4692e28eec43872b7fecaf79961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabCondtion: 11
-  dropCondition: 0
-  throwSensitivity: 1
-  blockMovementWhenGrabbing: 0
-  movementObject: {fileID: 0}
-  forceDepthToDistance: 0
-  forcedDistance: 1
-  allowClickForDepth: 0
-  clickDeadzone: 0.4
-  clickSensitivity: 1
-  minDepthDistance: 0.5
-  maxDepthDistance: 20
-  allowSwipeForRotation: 0
-  swipeXSensitivity: 1
-  swipeYSensitivity: 1
-  collisionsBreakGrab: 0
-  lockXPosition: 0
-  lockYPosition: 0
-  lockZPosition: 0
-  lockXRotation: 0
-  lockYRotation: 0
-  lockZRotation: 0
-  twistMode: 0
-  twistSensitivity: 1
 --- !u!114 &656601165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3544,15 +3423,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8028fe1c27b444c99bf0517f7bc852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!54 &656601166
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4421,30 +4291,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3dac4692e28eec43872b7fecaf79961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabCondtion: 11
-  dropCondition: 0
-  throwSensitivity: 1
-  blockMovementWhenGrabbing: 0
-  movementObject: {fileID: 0}
-  forceDepthToDistance: 0
-  forcedDistance: 1
-  allowClickForDepth: 0
-  clickDeadzone: 0.4
-  clickSensitivity: 1
-  minDepthDistance: 0.5
-  maxDepthDistance: 20
-  allowSwipeForRotation: 0
-  swipeXSensitivity: 1
-  swipeYSensitivity: 1
-  collisionsBreakGrab: 0
-  lockXPosition: 0
-  lockYPosition: 0
-  lockZPosition: 0
-  lockXRotation: 0
-  lockYRotation: 0
-  lockZRotation: 0
-  twistMode: 0
-  twistSensitivity: 1
 --- !u!114 &801096220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4457,15 +4303,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8028fe1c27b444c99bf0517f7bc852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!54 &801096221
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4734,15 +4571,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8028fe1c27b444c99bf0517f7bc852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &811007876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5091,6 +4919,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cahier
       objectReference: {fileID: 0}
+    - target: {fileID: 7292416655852479693, guid: 64ba1b90dba19aa4c85b6bc1c19fb8c0,
+        type: 3}
+      propertyPath: m_TagString
+      value: cahier
+      objectReference: {fileID: 0}
     - target: {fileID: 7292416655852479694, guid: 64ba1b90dba19aa4c85b6bc1c19fb8c0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5099,12 +4932,12 @@ PrefabInstance:
     - target: {fileID: 7292416655852479694, guid: 64ba1b90dba19aa4c85b6bc1c19fb8c0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.76
+      value: 35.3
       objectReference: {fileID: 0}
     - target: {fileID: 7292416655852479694, guid: 64ba1b90dba19aa4c85b6bc1c19fb8c0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.31
+      value: -129
       objectReference: {fileID: 0}
     - target: {fileID: 7292416655852479694, guid: 64ba1b90dba19aa4c85b6bc1c19fb8c0,
         type: 3}
@@ -5146,7 +4979,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7292416656414094848, guid: 64ba1b90dba19aa4c85b6bc1c19fb8c0,
+        type: 3}
+      propertyPath: m_TagString
+      value: cahier
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7292416656291685668, guid: 64ba1b90dba19aa4c85b6bc1c19fb8c0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 64ba1b90dba19aa4c85b6bc1c19fb8c0, type: 3}
 --- !u!1 &893079307
 GameObject:
@@ -5387,30 +5226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3dac4692e28eec43872b7fecaf79961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabCondtion: 11
-  dropCondition: 0
-  throwSensitivity: 1
-  blockMovementWhenGrabbing: 0
-  movementObject: {fileID: 0}
-  forceDepthToDistance: 0
-  forcedDistance: 1
-  allowClickForDepth: 0
-  clickDeadzone: 0.4
-  clickSensitivity: 1
-  minDepthDistance: 0.5
-  maxDepthDistance: 20
-  allowSwipeForRotation: 0
-  swipeXSensitivity: 1
-  swipeYSensitivity: 1
-  collisionsBreakGrab: 0
-  lockXPosition: 0
-  lockYPosition: 0
-  lockZPosition: 0
-  lockXRotation: 0
-  lockYRotation: 0
-  lockZRotation: 0
-  twistMode: 0
-  twistSensitivity: 1
 --- !u!114 &911055363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5423,15 +5238,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8028fe1c27b444c99bf0517f7bc852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!54 &911055364
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5699,11 +5505,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ee09c3020162d46a432d5c1e1def94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPressLength: 0.1
-  requiredSwipeLength: 0.6
-  maxQuickTapTime: 0.4
-  minLongTapTime: 0.5
-  maxDoubleTapTime: 0.45
 --- !u!4 &959045495
 Transform:
   m_ObjectHideFlags: 0
@@ -6218,15 +6019,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8028fe1c27b444c99bf0517f7bc852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1042695868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6239,30 +6031,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3dac4692e28eec43872b7fecaf79961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabCondtion: 11
-  dropCondition: 0
-  throwSensitivity: 1
-  blockMovementWhenGrabbing: 0
-  movementObject: {fileID: 0}
-  forceDepthToDistance: 0
-  forcedDistance: 1
-  allowClickForDepth: 0
-  clickDeadzone: 0.4
-  clickSensitivity: 1
-  minDepthDistance: 0.5
-  maxDepthDistance: 20
-  allowSwipeForRotation: 0
-  swipeXSensitivity: 1
-  swipeYSensitivity: 1
-  collisionsBreakGrab: 0
-  lockXPosition: 0
-  lockYPosition: 0
-  lockZPosition: 0
-  lockXRotation: 0
-  lockYRotation: 0
-  lockZRotation: 0
-  twistMode: 0
-  twistSensitivity: 1
 --- !u!1 &1061187293 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: bef1a3a05ac15b64c9577646c1658242,
@@ -6281,30 +6049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3dac4692e28eec43872b7fecaf79961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabCondtion: 11
-  dropCondition: 0
-  throwSensitivity: 1
-  blockMovementWhenGrabbing: 0
-  movementObject: {fileID: 0}
-  forceDepthToDistance: 0
-  forcedDistance: 1
-  allowClickForDepth: 0
-  clickDeadzone: 0.4
-  clickSensitivity: 1
-  minDepthDistance: 0.5
-  maxDepthDistance: 20
-  allowSwipeForRotation: 0
-  swipeXSensitivity: 1
-  swipeYSensitivity: 1
-  collisionsBreakGrab: 0
-  lockXPosition: 0
-  lockYPosition: 0
-  lockZPosition: 0
-  lockXRotation: 0
-  lockYRotation: 0
-  lockZRotation: 0
-  twistMode: 0
-  twistSensitivity: 1
 --- !u!114 &1061187295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6317,15 +6061,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8028fe1c27b444c99bf0517f7bc852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!65 &1061187296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6466,30 +6201,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3dac4692e28eec43872b7fecaf79961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabCondtion: 11
-  dropCondition: 0
-  throwSensitivity: 1
-  blockMovementWhenGrabbing: 0
-  movementObject: {fileID: 0}
-  forceDepthToDistance: 0
-  forcedDistance: 1
-  allowClickForDepth: 0
-  clickDeadzone: 0.4
-  clickSensitivity: 1
-  minDepthDistance: 0.5
-  maxDepthDistance: 20
-  allowSwipeForRotation: 0
-  swipeXSensitivity: 1
-  swipeYSensitivity: 1
-  collisionsBreakGrab: 0
-  lockXPosition: 0
-  lockYPosition: 0
-  lockZPosition: 0
-  lockXRotation: 0
-  lockYRotation: 0
-  lockZRotation: 0
-  twistMode: 0
-  twistSensitivity: 1
 --- !u!114 &1107986675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6502,15 +6213,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8028fe1c27b444c99bf0517f7bc852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!54 &1107986676
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7917,15 +7619,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8028fe1c27b444c99bf0517f7bc852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1441993247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9330,7 +9023,7 @@ GameObject:
   - component: {fileID: 1570580497}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: PetitObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9343,7 +9036,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570580495}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.18, z: 0.01}
+  m_LocalPosition: {x: -12.7, y: 27.3, z: -134.5}
   m_LocalScale: {x: 1, y: 1.9521372, z: 1}
   m_Children: []
   m_Father: {fileID: 656601163}
@@ -10133,6 +9826,83 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1720711220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1720711221}
+  - component: {fileID: 1720711223}
+  - component: {fileID: 1720711222}
+  m_Layer: 5
+  m_Name: TextScore
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1720711221
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720711220}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1499337489}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.42, y: 2.26}
+  m_SizeDelta: {x: 36.77, y: 39.61}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1720711222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720711220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 10
+--- !u!222 &1720711223
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720711220}
+  m_CullTransparentMesh: 0
 --- !u!1 &1732256830
 GameObject:
   m_ObjectHideFlags: 0
@@ -10200,15 +9970,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8028fe1c27b444c99bf0517f7bc852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1732256834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10445,7 +10206,9 @@ GameObject:
   - component: {fileID: 1829386103}
   - component: {fileID: 1829386107}
   - component: {fileID: 1829386109}
+  - component: {fileID: 1829386110}
   - component: {fileID: 1829386108}
+  - component: {fileID: 1829386111}
   m_Layer: 0
   m_Name: Ballon
   m_TagString: Untagged
@@ -10521,7 +10284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829386102}
   m_LocalRotation: {x: -0, y: -0, z: -0.6992524, w: 0.71487486}
-  m_LocalPosition: {x: 0.7, y: 17.35, z: 8.45}
+  m_LocalPosition: {x: 18.7, y: 9.2, z: -41.4}
   m_LocalScale: {x: 3.6818, y: 3.6818, z: 3.6818}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10539,31 +10302,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8028fe1c27b444c99bf0517f7bc852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!54 &1829386108
-Rigidbody:
+--- !u!114 &1829386108
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829386102}
-  serializedVersion: 2
-  m_Mass: 10
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615ee534b5c2d4433a25b80784588463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1829386109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10576,30 +10326,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3dac4692e28eec43872b7fecaf79961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabCondtion: 11
-  dropCondition: 0
-  throwSensitivity: 1
-  blockMovementWhenGrabbing: 0
-  movementObject: {fileID: 0}
-  forceDepthToDistance: 0
-  forcedDistance: 1
-  allowClickForDepth: 0
-  clickDeadzone: 0.4
-  clickSensitivity: 1
-  minDepthDistance: 0.5
-  maxDepthDistance: 20
-  allowSwipeForRotation: 0
-  swipeXSensitivity: 1
-  swipeYSensitivity: 1
-  collisionsBreakGrab: 0
-  lockXPosition: 0
-  lockYPosition: 0
-  lockZPosition: 0
-  lockXRotation: 0
-  lockYRotation: 0
-  lockZRotation: 0
-  twistMode: 0
-  twistSensitivity: 1
+--- !u!54 &1829386110
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829386102}
+  serializedVersion: 2
+  m_Mass: 10
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!95 &1829386111
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829386102}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6cd5ff112ff274ca985e509c6e7c6220, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1830853349
 GameObject:
   m_ObjectHideFlags: 0
@@ -10940,10 +10701,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a95898315b0e8146b32580e4c6717ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadZone: 0.5
-  sensitivity: 1
-  dpadMode: 0
-  lookObject: {fileID: 713510257}
 --- !u!114 &1899193294
 MonoBehaviour:
   m_ObjectHideFlags: 0
